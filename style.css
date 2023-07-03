@@ -1,5 +1,6 @@
 body {
     margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .zone {
@@ -17,6 +18,13 @@ body {
     -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+.box:hover {
+    -webkit-transform:rotate(-7deg);
+    -moz-transform:rotate(-7deg);
+    -o-transform:rotate(-7deg);
+    transform:rotate(-7deg);
 }
 
 /***********************************************************************
@@ -48,6 +56,12 @@ a {
     color: #f5f5f6;
     text-decoration: none;
 }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
     
 
 /***********************************************************************
@@ -58,6 +72,11 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.cover {
+    margin-top: 3rem;
+    width: 20rem;
 }
 
 /***********************************************************************
